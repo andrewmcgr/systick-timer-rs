@@ -18,7 +18,7 @@ exclude = ["/.github/*", ".pre-commit-config.yaml"]
 [dependencies]
 cortex-m = "0.7"
 cortex-m-rt = "0.7.5"
-embassy-time-driver = { version = "~0.2", optional = true }
+# embassy-time-driver = { version = "~0.2", optional = true }
 
 [features]
 default = ["cortex-m"]
